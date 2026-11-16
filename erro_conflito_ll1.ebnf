@@ -1,0 +1,7 @@
+TOKENS
+ID = /[a-zA-Z]+/;
+ASSIGN = /=/;
+LPAREN = /\(/;
+RPAREN = /\)/;
+RULES
+stmt = ID ASSIGN | ID LPAREN RPAREN;

@@ -1,0 +1,4 @@
+build/
+gerador
+*.o
+*.swp

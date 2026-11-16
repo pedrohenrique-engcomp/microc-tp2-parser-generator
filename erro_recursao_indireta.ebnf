@@ -1,0 +1,9 @@
+TOKENS
+A = /a/;
+B = /b/;
+X = /x/;
+Y = /y/;
+RULES
+s = a;
+a = b X | A;
+b = a Y | B;

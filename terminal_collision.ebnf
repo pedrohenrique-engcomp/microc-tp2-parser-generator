@@ -1,0 +1,4 @@
+TOKENS
+ID = /[a-z]+/;
+RULES
+start = ID | "ID";

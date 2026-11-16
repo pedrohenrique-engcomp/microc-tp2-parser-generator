@@ -1,0 +1,4 @@
+TOKENS
+NUM = /[0-9]+/;
+RULES
+expr = NUM fator;

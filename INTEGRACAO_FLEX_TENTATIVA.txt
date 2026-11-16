@@ -1,0 +1,19 @@
+Registro da tentativa de integracao do scanner Flex com o parser Micro C
+Data: 15/11/2026
+
+Comando executado na raiz do projeto:
+
+    make microc-parser
+
+Saida:
+
+    flex -o build/microc_lex.c src/scanner/microc.flex
+    make: flex: No such file or directory
+    make: *** [Makefile:35: build/microc_lex.c] Error 127
+
+Conclusao:
+
+O alvo foi iniciado, mas parou antes de gerar o scanner C porque o executavel
+Flex nao esta instalado neste ambiente. Logo, nao ha saida de compilacao ou
+execucao ponta a ponta para anexar. A tentativa nao deve ser confundida com
+um teste integrado bem-sucedido.

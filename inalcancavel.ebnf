@@ -1,0 +1,5 @@
+TOKENS
+ID = /[a-z]+/;
+RULES
+start = ID;
+sobra = ID;

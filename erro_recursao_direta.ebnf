@@ -1,0 +1,6 @@
+TOKENS
+X = /x/;
+COMMA = /,/;
+RULES
+programa = lista;
+lista = lista COMMA X | X;

@@ -1,0 +1,4 @@
+TOKENS
+ID = /[a-zA-Z]+/;
+RULES
+inicio = ID NUM;

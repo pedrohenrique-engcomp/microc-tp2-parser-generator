@@ -1,0 +1,6 @@
+TOKENS
+X = /x/;
+Y = /y/;
+Z = /z/;
+RULES
+start = (X | [Y]) Z;
